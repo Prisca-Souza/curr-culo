@@ -1,0 +1,24 @@
+body {
+  font-family: "Open Sans", serif;
+}
+.icone {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.direito {
+ 
+}
+.programadora {
+  width: 50px;
+}
+
+.curriculo {
+  background-color: #f5f2fe;
+  margin: 200px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.numero {
+  font-size: 16px;
+}
