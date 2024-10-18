@@ -7,18 +7,85 @@ body {
   margin-right: 10px;
 }
 .direito {
- 
+ display: flex;
+ align-items: center;
+ margin-bottom: 10px;
 }
 .programadora {
   width: 50px;
 }
 
 .curriculo {
-  background-color: #f5f2fe;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   margin: 200px;
   border-radius: 10px;
   padding: 30px;
 }
 .numero {
   font-size: 16px;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info-container img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.info-text {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #8f71ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #cbd5e0;
+  border-radius: 8px;
+}
+
+.about-me {
+  width: 45%;
+}
+
+.skills {
+  width: 45%;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  background-color: #4CAF50;
+  height: 8px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 24px;
 }
