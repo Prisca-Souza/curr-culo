@@ -46,13 +46,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #8f71ff;
+  color: #4b2bc0;
 }
 
 a:hover {
   text-decoration: underline;
 }
-
 .section {
   padding: 20px;
 }
@@ -61,18 +60,15 @@ a:hover {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #cbd5e0;
+  background-color: #Cbd5e0;
   border-radius: 8px;
 }
-
 .about-me {
   width: 45%;
 }
-
 .skills {
   width: 45%;
 }
-
 .progress-bar {
   width: 100%;
   background-color: #e0e0e0;
@@ -81,11 +77,28 @@ a:hover {
 }
 
 .progress {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   height: 8px;
   border-radius: 5px;
 }
-
 h2 {
   font-size: 24px;
 }
+h1, h3 {
+  text-align: center;
+  color: #0a1f96;
+  margin: 4px;
+}
+h3 {
+  font-size: 17px;
+  margin: 2px;
+  padding: 2px;
+}
+h2, h3 {
+  color: #468cca;
+  margin: 4px;
+}
+h4 {
+  color: #3c4245;
+}
+
